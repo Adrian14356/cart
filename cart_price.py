@@ -5,4 +5,5 @@ for item in products:
     if item['price']:
         cart_price += item['price']* item['quantity']
 print('Cart price:', cart_price)
-
+Cart price: 3036
+    

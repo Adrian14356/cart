@@ -5,11 +5,13 @@ for item in products:
     if item['free_delivery']:
         free_delivery=True
 print('Is the delivery free?', free_delivery)
+Is the delivery free? True 
 free_delivery=False #if we have just one item with False inside free delivery print false 
 for item in products:
     if item['free_delivery']:
         free_delivery=False
 print('Is the delivery free?', free_delivery)
+Is the delivery free? False 
 
 
 
